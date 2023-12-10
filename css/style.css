@@ -1,0 +1,195 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: #e8edf5;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+    transition: all 0.35s linear;
+}
+.wrapper .top_navbar{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	position: fixed;
+	top: 0;
+}
+
+.wrapper .top_navbar .logo{
+	width: 300px;
+	height: 100%;
+	background: #353a44;
+	border-bottom: 1px solid rgb(230, 224, 224);
+}
+
+.wrapper .top_navbar .logo a{
+	display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+  	font-size: 20px;
+  	color: #fff;
+  	padding: 20px 0;
+}
+
+.wrapper .top_navbar .top_menu{
+	width: calc(100% - 300px);
+	height: 100%;
+	background: #353a44;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(230, 224, 224);
+}
+
+.wrapper .top_navbar .right_info:hover {
+    background: #a6abb4;
+}
+
+.wrapper .top_navbar .right_info{
+	position: absolute;
+    right: 30px;
+}
+
+.top_menu .right_info{
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 3px;
+    background: #747f94;
+    margin: 0;
+    cursor: pointer;
+}
+
+.main_body .sidebar_menu{
+	position: fixed;
+  	top: 65px;
+  	left: 0;
+  	background: #353a44;
+  	width: 300px;
+  	height: 100%;
+  	transition: all 0.3s linear;
+}
+
+.main_body .sidebar_menu .inner__sidebar_menu{
+	position: relative;
+	padding-top: 60px;
+    height: 85%;
+}
+
+.main_body .sidebar_menu ul li a{
+    color:#a5b0c7;
+    font-size: 18px;
+    padding: 20px 35px;
+    display: block;
+    white-space: nowrap;
+}
+
+.main_body .sidebar_menu ul li a .icon{
+  margin-right: 5px;
+}
+
+.main_body .sidebar_menu ul li a span{
+  display: inline-block;
+}
+
+.main_body .sidebar_menu ul li a:hover{
+    background:#a8b3ca;
+    color: white;
+    transition: all 0.7s linear;
+}
+
+.main_body .sidebar_menu ul li a.active{
+    background:#4b525f;
+    color: white;
+}
+
+.main_body .sidebar_menu .hamburger{
+  position: absolute;
+  top: 5px;
+  right: -25px;
+  width: 50px;
+  height: 50px;
+  background: #e8edf5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main_body .sidebar_menu .inner_hamburger,
+.main_body .sidebar_menu .hamburger .arrow{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.main_body .sidebar_menu .inner_hamburger{
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  background: #353a44;
+}
+
+.main_body .sidebar_menu .hamburger .arrow{
+  color: #fff;
+  font-size: 20px;
+}
+
+.main_body .sidebar_menu .hamburger  .fa-long-arrow-alt-right{
+  display: none;
+}
+
+.wrapper.active .sidebar_menu{
+  width: 80px;
+  transition: all 0.35s linear;
+}
+
+.wrapper.active .hamburger .fa-long-arrow-alt-right{
+  display: block;
+}
+
+.wrapper.active .hamburger .fa-long-arrow-alt-left{
+  display: none;
+}
+
+.wrapper.active .sidebar_menu ul li a .list{
+  display: none;
+}
+
+.wrapper.active .main_body .container{
+  width: calc(100% - 100px);
+  margin-left: 100px;
+}
+.nix_logo{
+    height: 15%;
+    margin-left: 35px;
+}
+.nix_logo_img{
+    display: block;
+    height: 28px;
+    width: 50px;
+}
+.nix_logo_text{
+    font-size: 14px;
+    color: rgb(241, 237, 237);
+}
+
+.wrapper.active .nix_logo_text{
+    display: none;
+}
+
+.wrapper.active .nix_logo{
+    margin-left: 15px;
+}
+
