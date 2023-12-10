@@ -171,6 +171,11 @@ body{
   width: calc(100% - 100px);
   margin-left: 100px;
 }
+
+.wrapper.active .sidebar_menu ul li a{
+    padding: 20px 30px;
+}
+
 .nix_logo{
     height: 15%;
     margin-left: 35px;
