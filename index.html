@@ -8,10 +8,13 @@
     <title>NIX Users Application</title>
 
     <link rel="icon" type="image/x-icon" href="images/icons/NIX icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/3aec9cdb50.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -75,10 +78,63 @@
             </div>
 
             <div class="container">
-                
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Home</a>
+                    </li>
+                </ul>
+                <div class="home_page__title">
+                    <h1>Users Info</h1>
+                </div>
+                <div class="users">
+                    <div class="users__table">
+                        <table>
+                            <tr>
+                                <th>Photo</th>
+                                <th>Full name</th>
+                                <th>Achievements</th>
+                            </tr>
+                            <tr>
+                                <td class="users__table--photo_cell">
+                                    <img src="images/main_page/workers_photos/person.png" alt="Photo" class="users__table--worker_photo">
+                                </td>
+                                <td class="users__table--name_cell"><a href="#">Ivanov Ivan Ivanovich</a></td>
+                                <td class="users__table--achievements_cell"> 
+                                    <a href="#" data-toggle="popover" ><img src="images/main_page/star.png" alt="Star" class="users__table--achievements_icon"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="users__table--photo_cell">
+                                    <img src="images/main_page/workers_photos/person.png" alt="Photo" class="users__table--worker_photo">
+                                </td>
+                                <td class="users__table--name_cell"><a href="#">Ivanov Ivan Ivanovich</a></td>
+                                <td class="users__table--achievements_cell">
+                                    <a href="#" data-toggle="popover"  ><img src="images/main_page/star.png" alt="Star" class="users__table--achievements_icon"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="users__table--photo_cell">
+                                    <img src="images/main_page/workers_photos/person.png" alt="Photo" class="users__table--worker_photo">
+                                </td>
+                                <td class="users__table--name_cell"><a href="#">Ivanov Ivan Ivanovich</a></td>
+                                <td class="users__table--achievements_cell">
+                                    <a href="#" data-toggle="popover" ><img src="images/main_page/star.png" alt="Star" class="users__table--achievements_icon"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="users__table--photo_cell">
+                                    <img src="images/main_page/workers_photos/person.png" alt="Photo" class="users__table--worker_photo">
+                                </td>
+                                <td class="users__table--name_cell"><a href="#">Ivanov Ivan Ivanovich</a></td>
+                                <td class="users__table--achievements_cell">
+                                    <a href="#" data-toggle="popover" ><img src="images/main_page/star.png" alt="Star" class="users__table--achievements_icon"></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
