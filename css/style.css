@@ -27,7 +27,7 @@ body{
 }
 
 .wrapper .top_navbar .logo{
-	width: 300px;
+	width: 250px;
 	height: 100%;
 	background: #353a44;
 	border-bottom: 1px solid rgb(230, 224, 224);
@@ -40,11 +40,11 @@ body{
     letter-spacing: 1px;
   	font-size: 20px;
   	color: #fff;
-  	padding: 20px 0;
+  	padding: 20px 0 20px 20px;
 }
 
 .wrapper .top_navbar .top_menu{
-	width: calc(100% - 300px);
+	width: calc(100% - 250px);
 	height: 100%;
 	background: #353a44;
     padding: 0 40px;
