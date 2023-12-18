@@ -275,6 +275,7 @@ display: block;
 .users__table--name_cell{
     width: 670px;
     padding-left: 30px;
+    padding-right: 10px;
 }
 .users__table--name_cell a{
     color: blue;

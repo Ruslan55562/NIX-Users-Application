@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIX Users Application</title>
+
+    <link rel="icon" type="image/x-icon" href="images/icons/NIX icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/help.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+    <script src="js/main.js"></script>
+    <script src="js/help.js"></script>
+    <script src="https://kit.fontawesome.com/3aec9cdb50.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="logo">
+                <a href="#">NIX Users Application</a>
+            </div>
+            <div class="top_menu">
+                <div class="right_info">
+                    <div class="icon wrap">
+                        <div class="icon">
+                            <i class="fas fa-bell" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_body">
+            <div class="sidebar_menu">
+                <div class="inner__sidebar_menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <span class="icon">
+                                    <i class="fa-solid fa-house"></i>
+                                </span>
+                                <span class="list">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="inner__sidebar_menu_help active">
+                                <span class="icon">
+                                    <i class="fa-solid fa-question fa-lg"></i>
+                                </span>
+                                <span class="list">Help</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <div class="inner_hamburger">
+                            <span class="arrow">
+                                <i class="fas fa-long-arrow-alt-left" aria-hidden="true"></i>
+                                <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="nix_logo">
+                    <i>
+                        <a href="https://www.nixsolutions.com/ua/">
+                            <img src="images/main_page/nix_logo.svg" alt="Logo" class="nix_logo_img"> 
+                        </a>
+                        <span class="nix_logo_text">© NIX SOLUTIONS LTD 2023</span>
+                    </i>
+                </div>
+            </div>
+
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__link breadcrumbs__link">Home</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Help</a>
+                    </li>
+                </ul>
+                <div class="home_page__title">
+                    <h1>Help</h1>
+                </div>
+                <section class="contact">
+                    <div>
+                        <h2>Contact Us</h2>
+                        <p>Feel free to send us a message
+                            about anything you might need to help
+                            with. We would love to hear from you!
+                        </p>
+                        <form id="contact-form">
+                            <label for="user_name">Name</label>
+                            <input type="text" id="user_name" name="user_name" placeholder="Your name..." required/>
+                            <label for="user_email">Email</label>
+                            <input type="email" id="user_email" name="user_email" placeholder="example@gmail.com" required/>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+                            <button type="submit" class="submit-btn">Send</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+</body>
+</html>
