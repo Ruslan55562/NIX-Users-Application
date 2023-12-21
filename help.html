@@ -21,13 +21,31 @@
     <div class="wrapper">
         <div class="top_navbar">
             <div class="logo">
-                <a href="#">NIX Users Application</a>
+                <a href="index.html">NIX Users Application</a>
             </div>
             <div class="top_menu">
                 <div class="right_info">
                     <div class="icon wrap">
-                        <div class="icon">
+                        <div class="icon" onclick="toggleNotify()">
                             <i class="fas fa-bell" aria-hidden="true"></i>
+                            <span id="badge-bell">2</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="notify-box" id="box">
+                    <h3>Notification<span id="notify_counter"> 2</span></h3>
+                    <div class="notify-item">
+                        <div class="text">
+                            <img src="images/icons/mentor.png" alt="mentor" class="notify-item_img">
+                            <h4>You got a new achievement</h4>
+                            <p>Achievement that is given to a person who trains newcomers to the field.</p>
+                        </div>
+                    </div>
+                    <div class="notify-item">
+                        <div class="text">
+                            <img src="images/icons/school.png" alt="school" class="notify-item_img">
+                            <h4>You got a new achievement</h4>
+                            <p>Achievement awarded for developing a school for learning</p>
                         </div>
                     </div>
                 </div>
