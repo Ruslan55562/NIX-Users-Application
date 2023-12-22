@@ -1,4 +1,7 @@
-var down = false;
+document.addEventListener("DOMContentLoaded", () => {
+    const box = document.getElementById('box')
+});
+
 
 $(document).ready(function () {
     $(".hamburger").click(function () {
@@ -14,19 +17,19 @@ $(document).ready(function () {
     });
 });
 
+var opened = false;
 
 function toggleNotify(){
-    var box = document.getElementById('box');
-	if (down) {
+	if (opened) {
         box.style.height = '0px';
         box.style.opacity = 0;
-        down = false;
+        opened = false;
         box.style.cursor = 'default'
     }
     else {
         box.style.height = '315px';
         box.style.opacity = 1;
-        down = true;
+        opened = true;
         document.getElementById('badge-bell').remove();
         document.getElementById('notify_counter').innerHTML = " 0";
     }

@@ -295,6 +295,7 @@ display: block;
 }
 .users__table--name_cell a{
     color: blue;
+    font-family:Arial, Helvetica, sans-serif
 }
 .users__table--name_cell a:hover{
     text-decoration: underline;
@@ -324,7 +325,7 @@ display: block;
   position: absolute;
   top: 80px;
   right: 15px;
-  width: 300px;
+  width: 330px;
   background-color: ghostwhite;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   opacity: 0;
@@ -344,10 +345,10 @@ display: block;
 }
 
 .notify-item_img{
-  width: 50px;
+  width: 45px;
   display: inline-block;
   margin-left: 5px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .notify-box h3{
@@ -363,7 +364,7 @@ color: #f00;
 
 .notify-box .text h4{
  color: #5e5c5c;
- font-size: 16px;
+ font-size: 14px;
  display: inline-block;
 }
 
