@@ -318,7 +318,7 @@ display: block;
 }
 
 .popover-content img:not(:last-child){
-    margin-right: 7px;
+    margin-right: 12px;
 }
 
 .notify-box{

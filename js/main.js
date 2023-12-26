@@ -23,7 +23,7 @@ $(document).ready(function () {
         placement: 'right',
         trigger: 'hover',
         html: true,
-        content: '<img src="images/icons/mentor.png" width="50px"><img src="images/icons/school.png" width="50px">'
+        content: ' <div><img src="images/icons/mentor.png" width="50px"><img src="images/icons/school.png" width="50px"><img src="images/icons/three-years-icon.webp" width="50px"><img src="images/icons/five-years-icon.png" width="50px">'
     });
 });
 

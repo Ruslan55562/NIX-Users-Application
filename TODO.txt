@@ -1,0 +1,6 @@
+1. Add 'Load more' button/animation for loading workers.
+2. Deal with 'Notification' - is it required for us in future?
+3. Once API part is done - Update all the hardcoded values to DB values.
+4. Help form was implemented using MailJs - will it be convenient for us? (EmailJS helps to send emails using client-side technologies only. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use one of our SDK libraries to trigger an email.)
+Which means our email account will be used as the sender - is it secure?
+5. Update some fonts to be more appropriate (tables fonts, profile name, notification)

@@ -1,0 +1,24 @@
+.achievements__table--icon_cell img{
+    width: 85px;
+height: 85px;
+margin: auto;
+display: block;
+}
+.achievements__table--icon_cell{
+ width: 180px;
+ height: 130px;
+}
+.achievements__table--name_cell{
+    width: 300px;
+    text-align: center;
+}
+
+.achievements__table--achievements-description_cell{
+    width: 700px;
+    vertical-align: middle;
+}
+
+.achievements__table--achievements-description_cell p{
+    margin-left: 30px;
+    margin-right: 30px;
+}

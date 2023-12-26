@@ -9,16 +9,10 @@
 
     <link rel="icon" type="image/x-icon" href="images/icons/NIX icon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/profile.css">
-    <link rel="preload" href="images/main_page/star.png" as="image">
+    <link href="css/achievements.css" rel="stylesheet">
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/3aec9cdb50.js" crossorigin="anonymous"></script>
 </head>
@@ -106,58 +100,69 @@
                         <a href="index.html" class="breadcrumbs__link breadcrumbs__link">Home</a>
                     </li>
                     <li class="breadcrumbs__item">
-                        <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Profile</a>
+                        <a href="profile.html" class="breadcrumbs__link breadcrumbs__link">Profile</a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link breadcrumbs__link--active">Achievements</a>
                     </li>
                 </ul>
                 <div class="home_page__title">
-                    <h1>Profile</h1>
+                    <h1>Achievemets</h1>
                 </div>
-                <section class="profile_info">
-                    <img src="images/main_page/workers_photos/person.png" alt="photo" class="profile_info-photo">
-                    <div class="profile_info-header">
-                        <h4 class="profile_info-name">Ivanov Ivan Ivanovich</h4>
-                        <a href="achievements.html" class="profile_info-achievements"><img src="images/main_page/star.png" alt="star"
-                                id="profile-info_achievements__star"></a>
+                <div class="achievements">
+                    <div class="achievements__table">
+                        <table>
+                            <tr>
+                                <th>Icon</th>
+                                <th>Achievement name</th>
+                                <th>Achievement description</th>
+                            </tr>
+                            <tr>
+                                <td class="achievements__table--icon_cell">
+                                    <img src="images/icons/school.png" alt="Photo"
+                                        class="achievements__table--icon">
+                                </td>
+                                <td class="achievements__table--name_cell"><p>School Developer</p>
+                                </td>
+                                <td class="achievements__table--achievements-description_cell">
+                                    <p>Achievement which is given for 5 years of work in the company</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="achievements__table--icon_cell">
+                                    <img src="images/icons/mentor.png" alt="Photo"
+                                        class="achievements__table--icon">
+                                </td>
+                                <td class="achievements__table--name_cell"><p>School Mentor</p>
+                                </td>
+                                <td class="achievements__table--achievements-description_cell">
+                                    <p>Achievement that is given to a person who trains newcomers to the field.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="achievements__table--icon_cell">
+                                    <img src="images/icons/three-years-icon.webp" alt="Photo"
+                                        class="achievements__table--icon">
+                                </td>
+                                <td class="achievements__table--name_cell"><p>3 years in the department</p>
+                                </td>
+                                <td class="achievements__table--achievements-description_cell">
+                                    <p>Achievement that is given for working for three years in the department</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="achievements__table--icon_cell">
+                                    <img src="images/icons/five-years-icon.png" alt="Photo"
+                                        class="achievements__table--icon">
+                                </td>
+                                <td class="achievements__table--name_cell"><p>5 years in the department</p>
+                                </td>
+                                <td class="achievements__table--achievements-description_cell">
+                                    <p>Achievement that is given for working for five years in the department</p>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="profile_info_data">
-                        <div class="profile_info_data-item">
-                            <h5>Date of birth</h5>
-                            <p>29.09.1989</p>
-                        </div>
-                        <div class="profile_info_data-item">
-                            <h5>Phone</h5>
-                            <p>+380666666666</p>
-                        </div>
-                        <div class="profile_info_data-item">
-                            <h5>Email</h5>
-                            <p>IvanDev@dev.com</p>
-                        </div>
-                        <div class="profile_info_data-item">
-                            <h5>Domain</h5>
-                            <p>ivanDev</p>
-                        </div>
-                        <div class="profile_info_data-item">
-                            <h5>Achievements</h5>
-                            <div class="slider multiple-items">
-                                <div><img src="images/icons/mentor.png"></div>
-                                <div><img src="images/icons/school.png"></div>
-                                <div><img src="images/icons/three-years-icon.webp"></div>
-                                <div><img src="images/icons/five-years-icon.png"></div>
-                            </div>
-                        </div>
-                </section>
-
-                <script>
-                    $('.multiple-items').slick({
-                        infinite: true,
-                        dots: true,
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        autoplay: true
-                    });
-
-                </script>
-            </div>
 </body>
 
 </html>
