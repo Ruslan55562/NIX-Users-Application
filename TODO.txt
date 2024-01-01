@@ -4,3 +4,4 @@
 4. Help form was implemented using MailJs - will it be convenient for us? (EmailJS helps to send emails using client-side technologies only. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use one of our SDK libraries to trigger an email.)
 Which means our email account will be used as the sender - is it secure?
 5. Update some fonts to be more appropriate (tables fonts, profile name, notification)
+6. Verify if CSS media queries are required
