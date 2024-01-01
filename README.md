@@ -5,11 +5,9 @@ This project provides the ability to view the profiles of department members as 
 ## Installation
 
 1. Clone this repository: `git clone https://github.com/Ruslan55562/NIX-Users-Application.git` (f.e to Desktop)
-2. Go to solution folder: `cd NixUsersApplication`
-3. Build a solution: `dotnet build NixUsersApplication.sln /p:Configuration=Debug`
-4. Navigate to the folder with the executable file: `cd bin/Debug/net6.0`
-5. Run an application: `.\NixUsersApplication`
-6. Go to https://localhost:7012/index.html path
+2. Go to the solution folder: `cd Nix-Users-Application/NixUsersApplication`
+3. Build a solution: `dotnet run --environment Development`
+4. Go to https://localhost:7012/index.html path
 
 ## Usage
 
