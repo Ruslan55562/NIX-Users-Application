@@ -22,3 +22,8 @@ TODO: Write usage instructions
 
 ## History
 TODO: Write history
+
+## Roadmap
+1. Leaderboards
+2. Department structure
+3. Area leaders
